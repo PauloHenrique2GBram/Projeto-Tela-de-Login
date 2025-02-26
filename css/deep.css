@@ -1,0 +1,104 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif; /* Fonte Roboto */
+    background-color: #0f0c25; /* Cor de fundo principal */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh;
+    color: #fff; /* Cor principal dos textos */
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    color: #fff; /* Cor do título */
+}
+
+.input-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column; /* Disposição em coluna */
+    align-items: center; /* Centraliza os inputs */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 250px; /* Largura das caixas de texto */
+    height: 35px; /* Altura das caixas de texto */
+    padding-left: 15px; /* Espaçamento interno à esquerda */
+    border-radius: 15px; /* Bordas arredondadas */
+    border: none; /* Sem borda */
+    background-color: #292a38; /* Cor de fundo das caixas de texto */
+    color: #96979e; /* Cor do texto das caixas de texto */
+    font-family: "Roboto", sans-serif; /* Fonte Roboto */
+    font-size: 14px;
+}
+
+input[type="password"] {
+    margin-top: 15px; /* Espaçamento acima da caixa de senha */
+}
+
+button {
+    width: 250px; /* Largura do botão */
+    height: 35px; /* Altura do botão */
+    background-color: #77c97c; /* Cor de fundo do botão */
+    color: #1b1c30; /* Cor do texto do botão */
+    border: none;
+    border-radius: 15px; /* Bordas arredondadas */
+    font-family: "Roboto", sans-serif; /* Fonte Roboto */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #66b06a; /* Cor do botão ao passar o mouse */
+}
+
+.signup-link {
+    margin-top: 1rem;
+    color: #fff; /* Cor do texto */
+    font-size: 14px;
+}
+
+a {
+    color: aquamarine; /* Cor do link */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+.footer button {
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.footer button a {
+    text-decoration: none;
+    color: aquamarine;
+}

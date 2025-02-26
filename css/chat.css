@@ -1,0 +1,82 @@
+ /* Estilo para o body da página */
+ body {
+    background-color: #0f0c25; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    font-family: 'Roboto', sans-serif; /* Fonte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container para os elementos de login */
+.login-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para as caixas de texto (e-mail e senha) */
+.login-container input {
+    background-color: #292a38; /* Cor de fundo das caixas */
+    color: #96979e; /* Cor do texto */
+    border-radius: 15px; /* Bordas arredondadas */
+    border: none;
+    width: 250px; /* Largura das caixas */
+    height: 35px; /* Altura das caixas */
+    padding-left: 15px; /* Padding à esquerda */
+    margin-bottom: 10px; /* Espaço entre as caixas */
+}
+
+/* Margem superior específica para a caixa de senha */
+.login-container .senha {
+    margin-top: 15px;
+}
+
+/* Estilo para o botão ENTRAR */
+.login-container button {
+    background-color: #77c97c; /* Cor de fundo do botão */
+    color: #1b1c30; /* Cor do texto do botão */
+    border-radius: 15px; /* Bordas arredondadas */
+    border: none;
+    width: 250px; /* Largura do botão */
+    height: 35px; /* Altura do botão */
+    cursor: pointer; /* Cursor de clique */
+    margin-top: 10px; /* Espaço superior entre os botões */
+}
+
+/* Estilo para o link */
+.login-container a {
+    color: aquamarine; /* Cor do link */
+    text-decoration: none; /* Sem sublinhado */
+}
+
+/* Estilo para o texto "Ainda não tem uma conta?" */
+.login-container p {
+    margin-top: 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+.footer button {
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.footer button a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
